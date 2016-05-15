@@ -14,7 +14,8 @@ New:
 
 Fixes:
 
-- *add item here*
+- Fix tests to pass on Python 3.5
+  [datakurre]
 
 
 1.0.3 (2016-02-26)

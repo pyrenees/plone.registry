@@ -20,6 +20,10 @@ from zope.schema import getFieldsInOrder
 import re
 import warnings
 
+import sys
+if sys.version_info >= (3,):
+    basestring = str
+
 
 @implementer(IRegistry)
 class Registry(Persistent):

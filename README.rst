@@ -2,6 +2,9 @@
 Introduction
 ============
 
+.. image:: https://secure.travis-ci.org/pyrenees/plone.registry.png
+   :target: http://travis-ci.org/pyrenees/plone.registry
+
 This package provides debconf-like (or about:config-like) settings registries
 for Zope applications. A ``registry``, with a dict-like API, is used to get and
 set values stored in ``records``. Each record contains the actual value, as
