@@ -7,4 +7,6 @@
 
     <subscriber handler=".events.redispatchInterfaceAwareRecordEvents" />
 
+    <include package=".deserialize" />
+
 </configure>
